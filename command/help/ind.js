@@ -1,24 +1,24 @@
 exports.owner = (botname) =>{
-	return` 🙅‍♀️ Command khusus owner ${botname}`
+	return`  Cmd for owner ! ${botname}`
 	}
 exports.admin = (groupName) =>{
-	return`🙅‍♀️ Command khusus admin ${groupName}`
+	return` Cmd for admin ! ${groupName}`
 	}
 exports.adminB = () =>{
-	return`⚠️ Bot bukan admin grup`
+	return` Im not admin !`
 	}
 exports.err = () =>{
-	return`⚠️ Fitur ini sedang eror !`
+	return` Feature eror !`
 	}
 exports.group = () =>{
-	return`🙅‍♀️ Command khusus di dalam group`
+	return` Cmd for group !`
 	}
 
 exports.wait = () =>{
-	return`⏳ Sedang di proses ~`
+	return`⏳ Wait for second ~`
 	}
 exports.ok = () =>{
-	return` ✅ Oke done ~`
+	return` Done ! ~`
 	}
 exports.welcome = () =>{
 	return`Jangan Lupa Intro Ya~
