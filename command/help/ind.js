@@ -21,17 +21,16 @@ exports.ok = () =>{
 	return` Done ! ~`
 	}
 exports.welcome = () =>{
-	return`Jangan Lupa Intro Ya~
+	return`Konnichiwa!
 ⌯ָ   ֙Nama :
 ⌯ָ   ֙Umur :
-⌯ָ   ֙Kelamin :
+⌯ָ   ֙Favorit :
 ⌯ָ   ֙Askot :
-╰─ ᝬ _Patuhi Rules Group Ya_  >_<`
+`
       }
 exports.leave = () =>{
 	return`
-│
-╰─ ᝬ _Balik Lagi Wajib Donasi Ya_ >_<`
+Sayonara`
 }
 exports.menu = (prefix, salam, pushname) =>{
 	return`Hi ${pushname}, selamat ${salam}
@@ -39,7 +38,6 @@ exports.menu = (prefix, salam, pushname) =>{
 ╭─⬣ *List Menu*
 │ • ${prefix}menu
 │ • ${prefix}help
-│ • ${prefix}haruka
 │
 ├ *Download*
 │ • ${prefix}play [query]
