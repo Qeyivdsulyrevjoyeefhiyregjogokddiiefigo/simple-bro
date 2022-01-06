@@ -1,13 +1,3 @@
-<p align="center">
-<img src="https://github.com/zeeoneofc/Haruka/blob/v1/settings/haruka.jpg" alt="HARUKA BOT" width="200"/>
-
-<p align="center">
-    <a href="https://zeeoneofc.github.io">
-        <img
-            src="https://readme-typing-svg.herokuapp.com?size=15&width=280&lines=Thanks+for+using+haruka+bot+🤗"
-            alt="ZeeoneOfc"
-        />
-    </a>
 </p>
 
 </p>
