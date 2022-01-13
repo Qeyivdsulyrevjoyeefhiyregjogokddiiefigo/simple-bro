@@ -32,7 +32,9 @@ exports.welcome = () =>{
       }
 exports.leave = () =>{
 	return`
-Sayonara`
+
+*SC BOT INI DARI YT* : https://youtu.be/_De5EgwBPM8
+`
 }
 exports.menu = (prefix, salam, pushname) =>{
 	return`Hi ${pushname}, selamat ${salam}
