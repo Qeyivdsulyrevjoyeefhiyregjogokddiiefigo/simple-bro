@@ -321,10 +321,10 @@ const salam = moment(Date.now()).tz('Asia/Jakarta').locale('id').format('a')
 //colong aja bang, ingat jgn asal colong ntr sc lu error
 switch (command) {
 case 'menu': case 'help': case 'haruka':
-				sendButLocation(from, lang.menu(prefix, salam, pushname), '© ' + ownername, thumbnail, [{buttonId: '.owner', buttonText: {displayText: 'Owner'}, type: 1},{buttonId: '.infobot', buttonText:{displayText: 'Infobot'}, type: 1}], {quoted: mek})
+				sendButLocation(from, lang.menu(prefix, salam, pushname), '© ' + ownername, thumbnail, [{buttonId: '.owner', buttonText: {displayText: 'Owner'}, type: 1} {quoted: mek})
 				break
 case 'infobot':
-reply('Update bot selanjutnya silahkan cek YouTube zeeone ofc')
+reply('Update bot selanjutnya silahkan cek https://youtu.be/_De5EgwBPM8')
 break
 case 'owner':{
 		const ownerContact = [ownernumber, "", "", "", "", "", "", "", "", "", "" , "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
@@ -510,7 +510,7 @@ case 'pinterest':
 
                 pinterest(q).then(async(res) => {
                 	let we = await getBuffer(res.image)
-              	  sendButImage(from,  lang.ok() , `© ${ownername}`,we, [{"buttonId": `.pinterest ${q}`,"buttonText": {"displayText": "Next"},"type": "RESPONSE"}], {thumbnail: Buffer.alloc(0), quoted: mek})
+              	  sendButImage(from,  lang.ok() , `© ${ownername}`,we, [{"buttonId": `.pinterest ${q}`,"buttonText": {"displayText": "Next."},"type": "RESPONSE"}], {thumbnail: Buffer.alloc(0), quoted: mek})
                    }).catch(async(err) => {
                     reply('Terjadi kesalahan')
                 })
