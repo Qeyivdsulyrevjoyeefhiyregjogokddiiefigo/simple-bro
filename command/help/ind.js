@@ -36,8 +36,6 @@ exports.menu = (prefix, salam, pushname) =>{
 	return`Hi ${pushname}, selamat ${salam}
 
 ╭─⬣ *List Menu*
-│ • ${prefix}menu
-│ • ${prefix}help
 │
 ├ *Download*
 │ • ${prefix}play [query]
@@ -51,9 +49,6 @@ exports.menu = (prefix, salam, pushname) =>{
 │
 ├ *Convert*
 │ • ${prefix}stiker [video/image]
-│
-├ *Info*
-│ • ${prefix}owner
 │
 ├ *Owner*
 │ • ${prefix}broadcast [text]
