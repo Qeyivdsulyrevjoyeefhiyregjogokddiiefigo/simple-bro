@@ -320,8 +320,8 @@ const salam = moment(Date.now()).tz('Asia/Jakarta').locale('id').format('a')
 		
 //colong aja bang, ingat jgn asal colong ntr sc lu error
 switch (command) {
-case 'menu': case 'help': case 'haruka':
-				sendButLocation(from, lang.menu(prefix, salam, pushname), '© ' + ownername, thumbnail, [{buttonId: '.owner', buttonText: {displayText: 'Owner'}, type: 1} {quoted: mek})
+case 'menu': case 'help': case '1':
+				sendButLocation(from, lang.menu(prefix, salam, pushname), '© ' + ownername, thumbnail, [{buttonId: '.owner', buttonText: {displayText: 'Owner'}, type: 1}], {quoted: mek})
 				break
 case 'infobot':
 reply('Update bot selanjutnya silahkan cek https://youtu.be/_De5EgwBPM8')
