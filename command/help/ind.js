@@ -26,6 +26,8 @@ exports.welcome = () =>{
 ⌯ָ   ֙Umur :
 ⌯ָ   ֙Favorit :
 ⌯ָ   ֙Askot :
+
+*SC BOT INI DARI YT* : https://youtu.be/_De5EgwBPM8
 `
       }
 exports.leave = () =>{
